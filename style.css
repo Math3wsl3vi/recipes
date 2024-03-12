@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgba(234,224,213,255);
+   
+}
+
+.header{
+    margin: 10px;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    margin: 70px 20px;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgba(241,80,37,255);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: rgba(52,50,53,255);
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    background: rgba(52,50,53,255);
+    color: rgba(234,224,213,255);
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: rgba(241,80,37,255);
+}
+
+/*---banner--*/
+
+.banner{
+    position: relative;
+    display: inline-block;
+    margin: 0 50px;
+}
+.banner img{
+   max-width: 100%;
+   height: auto;
+   margin: 0 70px;
+   border-radius: 6px;
+}
+
+.text-overlay{
+    
+    color: rgba(52,50,53,255);
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    position: relative;
+    bottom: 220px;
+    background: none;
+}
+
+.banner p{
+    font-size: 30px;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    bottom: 210px;
+    background: none;
+    color: rgba(52,50,53,255);
+
+}
+
+/*----recipes--*/
+
+.recipes{
+    margin: 30px;
+    display: flex;
+
+}
+
+.small-menu ul{
+    margin: 50px;
+}
+
+.small-menu h1{
+    font-size: 15px;
+    margin: 0 30px;
+    color: rgba(241,80,37,255);
+
+}
+
+
+
+.small-menu ul li{
+    margin: 7px 30px;
+    list-style-type: none;
+    
+}
+
+.small-menu ul li a{
+    text-decoration: none;
+    color: rgba(52,50,53,255);
+    transition: 0.5s;
+
+}
+
+.small-menu ul li a:hover{
+    color: rgb(37, 150, 190);
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 20px;
+    
+}
+.menu small{
+    cursor: pointer;
+}
+
+.menu img{
+    width: 270px;
+    height: 200px;
+    border-radius: 6px;
+    
+}
+
+.menu h1{
+    font: weight 100px;
+    font-size: 20px;
+    color: rgba(52,50,53,255);
+    cursor: pointer;
+}
+
+.menu small{
+    color: rgb(37, 150, 190);
+}
+
+.pancakes{
+    margin: 0 20px;
+}
+.pancakes img{
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.pancakes img:hover{
+   transform: translateY(-5px); 
+}
+.pancakes a{
+    text-decoration: none;
+}
+
+
+
+.cakes{
+    margin:10px 20px;
+}
+.cakes img{
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.cakes img:hover{
+   transform: translateY(-5px); 
+}
+
+
+/*---footer--*/
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: rgba(52,50,53,255);
+    margin: 0px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    background: none;
+
+}
+
+.footer p i{
+    color: red;
+    background: none;
+    border: none;
+}
+
+.socials{
+    background: none;
+  
+}
+
+.socials i{
+    background: none;
+    color: rgba(241,80,37,255);
+    align-items: center;
+    font-size: 20px;
+}
+.socials a{
+    background: none;
+    position: relative;
+    left: 590px;
+    top: 30px;
+    margin: 10px;
+}
+
+
+/*---recipe page--*/
+
+.row1{
+    display: flex;
+} 
+
+.picture-row img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 50px;
+    
+}
+
+.description h1{
+    font-size: 45px;
+    font-weight: 200;
+    margin: 10px 0;
+
+}
+
+.description p{
+    font-size: 20px;
+}
+
+.prep{
+    display: flex;
+    flex-basis: auto;
+
+
+}
+
+.prep-time{
+    margin: 10px 20px;
+}
+
+.prep-time i{
+    font-size: 25px;
+    color: rgba(241,80,37,255);
+    margin: 10px 20px;
+}
+
+.prep-time h2{
+    margin-top: 20px;
+    color: rgba(52,50,53,255);
+
+}
+
+.prep-time p{
+    font-size: 15px;
+}
+
+/*---instructions---*/
+
+.instructions{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.instuction h1{
+    color: rgba(241,80,37,255);
+}
+
+.small-instructions{
+    margin: 10px 0;
+}
+
+.small-instructions h2{
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.small-instructions p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.small-ingredients h1{
+    color: rgba(241,80,37,255);
+}
+
+.small-ingredients p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.small-ingredients hr{
+    height: 2px;
+    border-radius: 2px;
+    width: 500px;
+}
+
+.tools p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.tools h1{
+    color: rgba(241,80,37,255);
+
+}
+.tools hr{
+    width:250px ;
+    
+}
+
+/*---blog--*/
+.blog{
+    margin: 10px 20px;
+}
+.row2{
+    display: flex;
+}
+
+.blog-row img{
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+    position: relative;
+    left: 30px;
+    
+}
+
+.blog-description{
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+
+
+.blog-description p{
+    font-size: 18px;
+}
+
+.blog-description h2{
+    margin: 10px 0;
+    color: rgba(241,80,37,255);
+}
+
+.below-img{
+    display: block;
+    margin: 50px;
+}
+
+.below-img h1{
+    font-size: 30px;
+}
+
+.below-img h2{
+    color: rgba(241,80,37,255);
+    margin: 10px 0;
+}
+
+.below-img p{
+    font-size: 18px;
+}
+
+.knife{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 10px;
+}
+
+.knife div{
+    padding: 40px;
+}
+
+.knife h2{
+    font-size: 25px;
+    color: rgba(241,80,37,255);
+}
+
+.knife p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    position: relative;
+    top: 40px;
+
+}
+
+
+/*---contact--*/
+
+.contact{
+    display: flex;
+
+}
+
+.contact h1{
+    position: relative;
+    left: 250px;
+    top: 43px;
+}
+.contact p{
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    margin: 0 50px;
+}
+
+.info{
+ display: flex;
+ flex-direction: column;
+
+}
+
+
+.info-socials h2{
+    font-size: 32px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    
+}
+
+.info-socials-2{
+    list-style: none;
+    display:flex ;
+    flex-direction: column;
+    position: relative;
+    top: 48px;
+    left: 250px;
+    margin: 10px 0;
+
+}
+
+.info-socials-2 a{
+    margin: 7px 0;
+    text-decoration: none;
+    color: #262626;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.info-socials-2 a:hover{
+    color: rgba(241,80,37,255);
+}
+
+    
+.feedback{
+    position: relative;
+    top: 150px;
+}
+
+/*---playlsit--*/ 
+
+.playlist{
+    margin: 10px;
+    text-align: center;
+}
+
+.playlist-img{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 34%;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.playlist-img:hover{
+    transform: translateY(-5px);
+
+}
+
+.playlist-img-2{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 34%;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.playlist-img-2:hover{
+    transform: translateY(-5px);
+
+}
+
+.playlist-con h1{
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.playlist-con P{
+    font-size: 20px;
+}
+
+.spotify{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.spotify a{
+    text-decoration: none;
+    color: rgba(52,50,53,255);
+    font-size: 20px;
+    margin: 8px;
+    transition: 0.5s;
+
+}
+
+.spotify a:hover{
+    color: rgba(241,80,37,255);
+}
+
+.spotify-footer{
+    width: 100%;
+    height: 100px;
+    position:absolute;
+    bottom: 0%;
+    background: rgba(52,50,53,255);
+    display: block;
+}
+
+.spotify-footer p{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    background: none;
+    font-size: 20px;
+
+}
+
+.spotify-footer p i{
+    background: none;
+    color: red;
+    border: none;
+}
+
+
+/*---blog-page-img--*/
+
+.blogpage{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+
+.blog-page{
+    padding: 5px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    background:none;
+    
+}
+
+.blog-page img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.blog-page-info{
+    background:none;
+}
+
+.blog-page-info h1{
+    background:none;
+    margin: 10px;
+}
+
+.blog-page-info p{
+    background:none;
+    font-size: 18px;
+}
+
+.baton{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(52,50,53,255);
+    color: #fff;
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.baton:hover{
+    background: rgba(241,80,37,255);
+    transform: translateY(-5px);
+
+}
